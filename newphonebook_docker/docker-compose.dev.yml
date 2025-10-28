@@ -1,0 +1,35 @@
+services:
+  front:
+    image: phonebook-front-dev
+    build:
+      context: ./phonebook_frontend # The context should be the frontend directory
+      dockerfile: dev.Dockerfile # Dockerfile path is relative to context
+    volumes:
+      - ./phonebook_frontend:/usr/src/app # The path can be relative, so ./ is enough to say "the same location as the docker-compose.yml"
+    ports:
+      - 5173:5173
+    container_name: phonebook-front-dev-full # This will name the container hello-front-dev
+
+  back:
+    image: phonebook-back-dev
+    build:
+      context: ./phonebook_backend # The context should be the backend directory
+      dockerfile: dev.Dockerfile # Dockerfile path is relative to context
+    volumes:
+      - ./phonebook_backend:/usr/src/app # The path can be relative, so ./ is enough to say "the same location as the docker-compose.yml"
+    ports:
+      - 3001:3001
+    environment:
+      - MONGO_URL=${MONGO_URL}
+    container_name: phonebook-back-dev-full # This will name the container todo-back-dev
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy-phonebook
+    depends_on:
+      - front
+      - back # wait for the frontend container to be started

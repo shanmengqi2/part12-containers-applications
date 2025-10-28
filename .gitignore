@@ -68,3 +68,6 @@ redis_data/
 
 learn/
 learn_c/
+
+.gitignore
+.dockerignore
