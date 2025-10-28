@@ -1,0 +1,202 @@
+Script started on Mon Oct 27 20:36:54 2025
+]633;P;ContinuationPrompt=%_> ]633;P;HasRichCommandDetection=True[1m[7m%[27m[1m[0m                                                                                          
+ 
+]633;D]633;P;Cwd=/Volumes/BackupMaster/FullStackOpen/Part12_Exercise/part12-containers-applications/todo-app/todo-backend]633;EnvSingleStart;0;;]633;EnvSingleEnd;;
+[0m[27m[24m[J]633;A(base) shanmengqi@danmengqideMini todo-backend % ]633;B[K[?2004hexitdocker exec -it todo-backend-mongo-1 bash-1 bash [8D-1 bash [8D-1 bash [8D-1 bash [8D-1 bash [8Dr-1 bashe-1 bashd-1 bashi-1 bashs-1 bash[?2004l
+
+]633;E;docker exec -it todo-backend-redis-1 bash;]633;C[?
+[?2004hroot@da8ac5219693:/data# redis-cli
+[?2004l
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> k
+[17C
+[0K127.0.0.1:6379> ke
+[18C
+[0K127.0.0.1:6379> key
+[19C
+[0K127.0.0.1:6379> keys
+[20C
+[0K127.0.0.1:6379> keys [0;90;49mpattern[0m
+[21C
+[0K127.0.0.1:6379> keys *[0;90;49m pattern[0m
+[22C
+[0K127.0.0.1:6379> keys *
+[22C
+1) "added_todos"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> g
+[17C
+[0K127.0.0.1:6379> ge
+[18C
+[0K127.0.0.1:6379> get
+[19C
+[0K127.0.0.1:6379> get [0;90;49mkey[0m
+[20C
+[0K127.0.0.1:6379> get a[0;90;49m key[0m
+[21C
+[0K127.0.0.1:6379> get ad[0;90;49m key[0m
+[22C
+[0K127.0.0.1:6379> get add[0;90;49m key[0m
+[23C
+[0K127.0.0.1:6379> get adde[0;90;49m key[0m
+[24C
+[0K127.0.0.1:6379> get added[0;90;49m key[0m
+[25C
+[0K127.0.0.1:6379> get added_[0;90;49m key[0m
+[26C
+[0K127.0.0.1:6379> get added_t[0;90;49m key[0m
+[27C
+[0K127.0.0.1:6379> get added_to[0;90;49m key[0m
+[28C
+[0K127.0.0.1:6379> get added_tod[0;90;49m key[0m
+[29C
+[0K127.0.0.1:6379> get added_todo[0;90;49m key[0m
+[30C
+[0K127.0.0.1:6379> get added_todos[0;90;49m key[0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+"2"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> s
+[17C
+[0K127.0.0.1:6379> se
+[18C
+[0K127.0.0.1:6379> set
+[19C
+[0K127.0.0.1:6379> set [0;90;49mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seco[0m
+[20C
+[0K127.0.0.1:6379> set a[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-se[0m
+[21C
+[0K127.0.0.1:6379> set ad[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-s[0m
+[22C
+[0K127.0.0.1:6379> set add[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-[0m
+[23C
+[0K127.0.0.1:6379> set adde[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time[0m
+[24C
+[0K127.0.0.1:6379> set added[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-tim[0m
+[25C
+[0K127.0.0.1:6379> set added_[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-ti[0m
+[26C
+[0K127.0.0.1:6379> set added_t[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-t[0m
+[27C
+[0K127.0.0.1:6379> set added_to[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-[0m
+[28C
+[0K127.0.0.1:6379> set added_tod[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix[0m
+[29C
+[0K127.0.0.1:6379> set added_todo[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT uni[0m
+[30C
+[0K127.0.0.1:6379> set added_todos[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT un[0m
+[31C
+[0K127.0.0.1:6379> set added_todos [0;90;49mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-t[0m
+[32C
+[0K127.0.0.1:6379> set added_todos "
+[33C
+[0K127.0.0.1:6379> set added_todos ""[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT uni[0m
+[34C
+[0K127.0.0.1:6379> set added_todos ""[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT uni[0m
+[33C
+[0K127.0.0.1:6379> set added_todos "1"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT un[0m
+[34C
+[0K127.0.0.1:6379> set added_todos "10"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT u[0m
+[35C
+[0K127.0.0.1:6379> set added_todos "100"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT [0m
+[36C
+[0K127.0.0.1:6379> set added_todos "1000"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT[0m
+[37C
+[0K127.0.0.1:6379> set added_todos "10000"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXA[0m
+[38C
+[0K127.0.0.1:6379> set added_todos "1000"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT[0m
+[37C
+[0K127.0.0.1:6379> set added_todos "100"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT [0m
+[36C
+[0K127.0.0.1:6379> set added_todos "10"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT u[0m
+[35C
+[0K127.0.0.1:6379> set added_todos "1"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT un[0m
+[34C
+[0K127.0.0.1:6379> set added_todos ""[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT uni[0m
+[33C
+[0K127.0.0.1:6379> set added_todos "9"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT un[0m
+[34C
+[0K127.0.0.1:6379> set added_todos "90"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT u[0m
+[35C
+[0K127.0.0.1:6379> set added_todos "900"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT [0m
+[36C
+[0K127.0.0.1:6379> set added_todos "9001"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT[0m
+[37C
+[0K127.0.0.1:6379> set added_todos "9001"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT[0m
+[38C
+[0K127.0.0.1:6379> set added_todos "9001"
+[38C
+OK
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> set added_todos "9001"[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT[0m
+[38C
+[0K127.0.0.1:6379> get added_todos[0;90;49m key[0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+"9002"
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> d
+[17C
+[0K127.0.0.1:6379> de
+[18C
+[0K127.0.0.1:6379> del
+[19C
+[0K127.0.0.1:6379> del [0;90;49mkey [key ...][0m
+[20C
+[0K127.0.0.1:6379> del a[0;90;49m key [key ...][0m
+[21C
+[0K127.0.0.1:6379> del ad[0;90;49m key [key ...][0m
+[22C
+[0K127.0.0.1:6379> del add[0;90;49m key [key ...][0m
+[23C
+[0K127.0.0.1:6379> del adde[0;90;49m key [key ...][0m
+[24C
+[0K127.0.0.1:6379> del added[0;90;49m key [key ...][0m
+[25C
+[0K127.0.0.1:6379> del added_[0;90;49m key [key ...][0m
+[26C
+[0K127.0.0.1:6379> del added_t[0;90;49m key [key ...][0m
+[27C
+[0K127.0.0.1:6379> del added_to[0;90;49m key [key ...][0m
+[28C
+[0K127.0.0.1:6379> del added_tod[0;90;49m key [key ...][0m
+[29C
+[0K127.0.0.1:6379> del added_todo[0;90;49m key [key ...][0m
+[30C
+[0K127.0.0.1:6379> del added_todos[0;90;49m key [key ...][0m
+[31C
+[0K127.0.0.1:6379> del added_todos
+[31C
+(integer) 1
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> del added_todos[0;90;49m key [key ...][0m
+[31C
+[0K127.0.0.1:6379> get added_todos[0;90;49m key[0m
+[31C
+[0K127.0.0.1:6379> get added_todos
+[31C
+(nil)
+127.0.0.1:6379> 
+[0K127.0.0.1:6379> e
+[17C
+[0K127.0.0.1:6379> ex
+[18C
+[0K127.0.0.1:6379> exi
+[19C
+[0K127.0.0.1:6379> exit
+[20C
+[0K127.0.0.1:6379> exit
+[20C
+[?2004hroot@da8ac5219693:/data# exit
+[?2004l
+exit
+[1m[7m%[27m[1m[0m                                                                                          
+ 
+]633;D;0]633;P;Cwd=/Volumes/BackupMaster/FullStackOpen/Part12_Exercise/part12-containers-applications/todo-app/todo-backend]633;EnvSingleStart;0;;]633;EnvSingleEnd;;
+[0m[27m[24m[J]633;A(base) shanmengqi@danmengqideMini todo-backend % ]633;B[K[?2004heexit[?2004l
+
+]633;E;exit;]633;C
+Script done on Mon Oct 27 20:42:10 2025

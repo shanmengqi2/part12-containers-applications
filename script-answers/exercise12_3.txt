@@ -1,0 +1,17 @@
+Script started on 2025-10-23 17:26:25+00:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="63" LINES="35"]
+# ^[[A^[[A^[[B            nano /us	  usr/src/app/index.js
+[?2004h[?1049h[22;0;0t[1;35r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[33;25H(B[0;7m[ Reading... ](B[m[33;24H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2 [8b/usr/src/app/index.js [17b [1;62H(B[m
+[34d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute
+[35d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify
+[2d[?12l[?25h[?25l[1;46H(B[0;7m*[62G(B[m[?12l[?25h
+[2dc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25h([?25l[?12l[?25h'[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l
+[33d[K[?12l[?25h[2;19H W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h[2;13H(B[0;1m[35m'Hello World'[39m(B[m[?25l[?12l[?25h)[?25l
+[33d(B[0;7mSave modified buffer? [40b [34;1H Y(B[m Yes[K
+[35d(B[0;7m N(B[m No [10b(B[0;7m^C(B[m Cancel[K[33;23H[?12l[?25h[?25l
+[34d(B[0;7m^G(B[m Help[34;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File
+[35d(B[0;7m^C(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^T(B[m Browse
+[33d(B[0;7mFile Name to Write: /usr/src/app/index.js(B[m[?12l[?25h[?25l[33;24H[1K (B[0;7m[ Writing... ](B[m[K[1;46H(B[0;7m [62G(B[m[33;24H(B[0;7m[ Wrote 1 line ](B[m
+[J[35d[?12l[?25h[35;1H[?1049l[23;0;0t
+[?1l>[?2004l# exit
+
+Script done on 2025-10-23 17:27:16+00:00 [COMMAND_EXIT_CODE="0"]
